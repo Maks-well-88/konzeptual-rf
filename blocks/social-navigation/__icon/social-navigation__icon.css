@@ -1,4 +1,4 @@
-.header__social-navigation-icon {
+.social-navigation__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,6 +9,6 @@
   border: 2px solid #fff;
 }
 
-.header__social-navigation-icon:hover {
+.social-navigation__icon:hover {
   opacity: .8;
 }

@@ -1,0 +1,11 @@
+.popup__search-btn {
+  position: absolute;
+  top: 3px;
+  right: 33px;
+  height: 34px;
+  padding: 0 20px;
+  border-radius: 25px;
+  border: none;
+  color: #ffffff;
+  background-color: #007aff;
+}
