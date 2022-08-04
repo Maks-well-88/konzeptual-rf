@@ -34,9 +34,6 @@
 @import url('../blocks/header/__navigation-link/_active/header__navigation-link_active.css');
 @import url('../blocks/header/__phone/header__phone.css');
 @import url('../blocks/header/__phone-link/header__phone-link.css');
-/* social-icons */
-
-@import url('../blocks/header/__social-navigation-icon/header__social-navigation-icon.css');
 
 /* SOCIAL-NAVIGATION */
 @import url('../blocks/social-navigation/social-navigation.css');

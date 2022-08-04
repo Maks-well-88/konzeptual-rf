@@ -1,3 +1,4 @@
-.page_state_hidden {
+html, .page_state_hidden {
   overflow-y: hidden;
+  height: 100%;
 }
