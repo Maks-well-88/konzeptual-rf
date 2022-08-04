@@ -1,0 +1,18 @@
+.content__nav-items {
+  max-width: 853px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  position: relative;
+}
+
+.content__nav-items::after {
+  content: "";
+  height: 1px;
+  position: absolute;
+  background: rgba(0, 0, 0, .2);
+  top: 35px;
+  left: 0;
+  right: 0;
+}

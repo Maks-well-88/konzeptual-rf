@@ -1,0 +1,10 @@
+.footer__payments {
+  max-width: 1480px;
+  margin: 0 auto 30px;
+}
+
+@media screen and (max-width: 645px) {
+  .footer__payments {
+    margin-top: 30px;
+  }
+}

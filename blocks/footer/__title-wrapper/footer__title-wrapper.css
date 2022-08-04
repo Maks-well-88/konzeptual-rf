@@ -1,0 +1,6 @@
+.footer__title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 0;
+  margin: 15px 0 18px 0;
+}

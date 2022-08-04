@@ -1,0 +1,8 @@
+.content__nav-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .9);
+}
+
+.content__nav-link:hover {
+  color: rgba(0, 0, 0, .6);
+}

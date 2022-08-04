@@ -1,0 +1,8 @@
+.pagination__link_active {
+  text-decoration: none;
+  font-weight: 900;
+  background-color: #007aff;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}

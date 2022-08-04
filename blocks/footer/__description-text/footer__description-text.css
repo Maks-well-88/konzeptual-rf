@@ -1,0 +1,9 @@
+.footer__description-text {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.footer__description-text:last-of-type {
+  margin-bottom: 25px;
+}

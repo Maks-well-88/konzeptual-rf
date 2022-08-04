@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  min-height: 500px;
+  background-image: linear-gradient(180deg, #00142f, #00428a);
+  margin-top: 100px;
+  position: relative;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  padding-top: 30px;
+}
+
+.footer::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 25px;
+  border-radius: 0 0 25px 25px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1230px) {
+  .footer::after {
+    display: none;
+  }
+}

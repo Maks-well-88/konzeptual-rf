@@ -1,0 +1,13 @@
+.footer__navigation-items {
+  display: block;
+  list-style: none;
+  padding: 5px 0 0 0;
+}
+
+@media screen and (max-width: 1230px) {
+  .footer__navigation-items {
+    max-height: 0;
+    transition: max-height .3s ease;
+    overflow: hidden;
+  }
+}

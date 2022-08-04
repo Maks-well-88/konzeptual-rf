@@ -1,0 +1,15 @@
+.footer__information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 120px 20px 120px;
+  display: flex;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1230px) {
+  .footer__information {
+    flex-direction: column;
+    padding: 0 15px 20px 15px;
+  }
+}

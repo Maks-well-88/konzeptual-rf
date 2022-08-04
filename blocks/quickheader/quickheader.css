@@ -1,0 +1,9 @@
+.quickheader {
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s linear, visibility .2s linear;
+  z-index: 3;
+}

@@ -1,0 +1,19 @@
+.footer__navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 120px 40px 120px;
+  position: relative;
+}
+
+/* @media screen and (max-width: 1200px) {
+  .footer__navigation {
+    padding: 40px 60px 20px 60px;
+  }
+} */
+
+@media screen and (max-width: 1230px) {
+  .footer__navigation {
+    padding: 0 15px 20px 15px;
+    flex-direction: column;
+  }
+}

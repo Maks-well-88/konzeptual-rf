@@ -1,0 +1,16 @@
+.footer__title-button {
+  display: none;
+  cursor: pointer;
+  height: 20px;
+  background: none;
+  color: #fff;
+  border: none;
+
+}
+
+@media screen and (max-width: 1230px) {
+  .footer__title-button {
+    display: block;
+    transition: transform .5s ease;
+  }
+}

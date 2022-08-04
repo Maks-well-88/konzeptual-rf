@@ -1,0 +1,9 @@
+.footer__description {
+  max-width: 600px;
+}
+
+@media screen and (max-width: 1230px) {
+  .footer__description {
+    margin-top: 35px;
+  }
+}

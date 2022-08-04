@@ -1,0 +1,7 @@
+.content__video-item {
+  transition: transform .2s ease-in-out;
+}
+
+.content__video-item:hover {
+  transform: translateY(-3px);
+}

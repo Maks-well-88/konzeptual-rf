@@ -1,0 +1,8 @@
+.elements__title {
+  max-width: 1360px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  margin: 60px auto 0 auto;
+  font-size: 38px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.9);
+}

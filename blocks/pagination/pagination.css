@@ -1,0 +1,6 @@
+.pagination {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 40px 160px 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+}

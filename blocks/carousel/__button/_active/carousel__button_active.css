@@ -1,0 +1,4 @@
+.carousel__button_active {
+  visibility: visible;
+  opacity: .8;
+}

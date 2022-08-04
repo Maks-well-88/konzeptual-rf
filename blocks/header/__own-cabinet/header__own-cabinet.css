@@ -1,0 +1,14 @@
+.header__own-cabinet {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 60px;
+  box-sizing: border-box;
+  margin-top: 9px;
+  margin-right: 25px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 13px;
+  overflow: hidden;
+}

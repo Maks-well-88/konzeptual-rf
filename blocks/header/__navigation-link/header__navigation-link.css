@@ -1,0 +1,8 @@
+.header__navigation-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header__navigation-link:hover {
+  color: #ff9e58;
+}

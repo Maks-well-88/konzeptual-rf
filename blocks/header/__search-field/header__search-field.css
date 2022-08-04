@@ -1,0 +1,12 @@
+.header__search-field {
+  margin-top: 5px;
+  width: 500px;
+  height: 33px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+  overflow: hidden;
+  z-index: 2;
+}

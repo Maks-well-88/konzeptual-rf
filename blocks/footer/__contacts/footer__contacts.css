@@ -1,0 +1,14 @@
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 1230px) {
+  .footer__contacts {
+    order: -1;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

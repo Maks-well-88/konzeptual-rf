@@ -1,0 +1,8 @@
+.pagination__item {
+  list-style: none;
+  margin-right: 5px;
+}
+
+.pagination__item:last-of-type {
+  margin-right: 0;
+}

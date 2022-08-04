@@ -1,0 +1,12 @@
+.header__own-cabinet-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 900;
+  background-color: #ff872f;
+  padding: 9px 12px;
+}
+
+.header__own-cabinet-link:hover {
+  background-color: #ff9e58;
+  color: #ffffff;
+}

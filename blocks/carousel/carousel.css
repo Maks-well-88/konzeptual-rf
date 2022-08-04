@@ -1,0 +1,7 @@
+.carousel {
+  max-width: 1380px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}

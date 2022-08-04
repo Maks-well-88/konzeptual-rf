@@ -1,0 +1,27 @@
+.header__container {
+  max-width: 1480px;
+  box-sizing: border-box;
+  margin: 18px auto 0 auto;
+  padding: 0 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__container::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 153px;
+  background-color: #ffffff;
+  opacity: .1;
+}
+
+@media screen and (max-width: 915px) {
+  .header__container {
+    margin-bottom: 18px;
+    padding: 0 15px 0 15px;
+  }
+}

@@ -1,0 +1,11 @@
+.content__nav-item {
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 18px;
+
+}
+
+.content__nav-item:first-of-type {
+  margin-right: auto;
+  margin-left: 0;
+}

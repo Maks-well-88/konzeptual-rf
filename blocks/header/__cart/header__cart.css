@@ -1,0 +1,9 @@
+.header__cart {
+  position: relative;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  color: #ffffff;
+  margin: 25px 40px 0 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

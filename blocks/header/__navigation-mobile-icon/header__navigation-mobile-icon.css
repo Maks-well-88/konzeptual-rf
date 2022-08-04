@@ -1,0 +1,10 @@
+.header__navigation-mobile-icon {
+  color: #ffffff;
+  display: none;
+}
+
+@media screen and (max-width: 1230px) {
+  .header__navigation-mobile-icon {
+    display: block;
+  }
+}

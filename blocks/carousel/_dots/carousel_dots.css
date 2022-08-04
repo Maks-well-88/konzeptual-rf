@@ -1,0 +1,5 @@
+.carousel_dots {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto 0 auto;
+}

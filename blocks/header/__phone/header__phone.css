@@ -1,0 +1,13 @@
+.header__phone {
+  cursor: pointer;
+  padding-top: 9px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 1230px) {
+  .header__phone {
+    display: none;
+  }
+}
