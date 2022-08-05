@@ -1,7 +1,6 @@
 const popup = document.querySelector('.popup');
 const closePopupButton = popup.querySelector('.popup__close-btn');
 const openPopupButton = document.querySelector('.header__navigation-mobile-icon');
-const body = document.querySelector('.page');
 let winX = null;
 let winY = null;
 

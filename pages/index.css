@@ -6,7 +6,6 @@
 
 /* PAGE */
 @import url('../blocks/page/page.css');
-@import url('../blocks/page/_state/page_state_hidden.css');
 
 /* HEADER-ZONE */
 @import url('../blocks/header/header.css');
