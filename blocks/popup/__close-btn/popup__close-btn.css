@@ -3,6 +3,7 @@
   color: #ffffff;
   top: 30px;
   right: 40px;
+  z-index: 3;
 }
 
 @media screen and (max-width: 915px) {
