@@ -1,31 +1,17 @@
 const popup = document.querySelector('.popup');
 const closePopupButton = popup.querySelector('.popup__close-btn');
 const openPopupButton = document.querySelector('.header__navigation-mobile-icon');
-let winX = null;
-let winY = null;
+const body = document.querySelector('.page');
+const html = document.getElementsByTagName('html');
 
 openPopupButton.addEventListener('click', () => {
   popup.classList.toggle('popup_opened');
-  disableWindowScroll();
+  body.classList.toggle('page_state_hidden');
+  html.setAttribute('style', 'overflow: hidden; height: 100%;');
 });
 
 closePopupButton.addEventListener('click', () => {
   popup.classList.toggle('popup_opened');
-  enableWindowScroll();
+  body.classList.toggle('page_state_hidden');
+  html.removeAttribute('style', 'overflow: hidden; height: 100%;');
 });
-
-window.addEventListener('scroll', function () {
-  if (winX !== null && winY !== null) {
-    window.scrollTo(winX, winY);
-  }
-});
-
-function disableWindowScroll() {
-  winX = window.pageXOffset;
-  winY = window.pageYOffset;
-}
-
-function enableWindowScroll() {
-  winX = null;
-  winY = null;
-}
