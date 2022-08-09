@@ -5,3 +5,15 @@
   position: relative;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 915px) {
+  .carousel {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carousel {
+    display: none;
+  }
+}

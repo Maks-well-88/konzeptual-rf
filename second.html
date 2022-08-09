@@ -19,7 +19,7 @@
         <input class="header__search-field" type="text" name="search" value="" placeholder="Поиск: введите название ролика или фамилию автора" autocomplete="off">
         <button type="button" class="header__search-btn"><i class="fa fa-search header__search-icon"></i></button>
       </div>
-      <button type="button" class="header__cart">
+      <!-- <button type="button" class="header__cart">
         <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
         <span class="header__cart-count">0</span>
       </button>
@@ -28,10 +28,11 @@
           <i class="fa fa-user-o fa-lg" aria-hidden="true"></i>
           <span class="header__own-cabinet-text">Мой кабинет</span>
         </a>
-      </div>
+      </div> -->
       <div class="header__phone">
         <a href="javascript:void(0);" onclick="window.location.href='tel:+74951506970';" class="header__phone-link">+7 (495) 150-69-70</a>
       </div>
+      <i class="fa fa-bars fa-2x header__navigation-mobile-icon" aria-hidden="true"></i>
     </div>
     <nav class="header__navigation-container">
       <ul class="header__navigation-wrapper">
@@ -67,70 +68,124 @@
           <a href="https://konzeptual.ru/kontakti/" class="header__navigation-link">Контакты</a>
         </li>
       </ul>
-      <ul class="header__social-navigation-wrapper">
-        <li class="header__social-navigation-item">
-          <a href="https://vk.com/konzeptual_rf" target="_blank" class="header__social-navigation-link">
-            <i class="fa fa-vk header__social-navigation-icon" aria-hidden="true"></i>
+      <ul class="social-navigation social-navigation_place_header">
+        <li class="social-navigation__item social-navigation__item_place_header">
+          <a href="https://vk.com/konzeptual_rf" target="_blank" class="social-navigation__link">
+            <i class="fa fa-vk social-navigation__icon" aria-hidden="true"></i>
           </a>
         </li>
-        <li class="header__social-navigation-item">
-          <a href="https://ok.ru/konzeptualrf" target="_blank" class="header__social-navigation-link">
-            <i class="fa fa-odnoklassniki fa-lg header__social-navigation-icon" aria-hidden="true"></i>
+        <li class="social-navigation__item social-navigation__item_place_header">
+          <a href="https://ok.ru/konzeptualrf" target="_blank" class="social-navigation__link">
+            <i class="fa fa-odnoklassniki fa-lg social-navigation__icon" aria-hidden="true"></i>
           </a>
         </li>
-        <li class="header__social-navigation-item">
-          <a href="https://zen.yandex.ru/id/5fe0cbdaa999407e2055cb13" target="_blank" class="header__social-navigation-link">
-            <img src="./images/zen.png" alt="Дзен" class="header__social-navigation-icon">
+        <li class="social-navigation__item social-navigation__item_place_header">
+          <a href="https://zen.yandex.ru/id/5fe0cbdaa999407e2055cb13" target="_blank" class="social-navigation__link">
+            <img src="./images/zen.png" alt="Дзен" class="social-navigation__icon">
           </a>
         </li>
-        <li class="header__social-navigation-item">
-          <a href="https://t.me/konzeptual_ru" target="_blank" class="header__social-navigation-link">
-            <i class="fa fa-telegram header__social-navigation-icon" aria-hidden="true"></i>
+        <li class="social-navigation__item social-navigation__item_place_header">
+          <a href="https://t.me/konzeptual_ru" target="_blank" class="social-navigation__link">
+            <i class="fa fa-telegram social-navigation__icon" aria-hidden="true"></i>
           </a>
         </li>
-        <li class="header__social-navigation-item">
-          <a href="https://www.youtube.com/user/konzeptualtv" target="_blank" class="header__social-navigation-link">
-            <i class="fa fa-youtube header__social-navigation-icon" aria-hidden="true"></i>
+        <li class="social-navigation__item social-navigation__item_place_header">
+          <a href="https://www.youtube.com/user/konzeptualtv" target="_blank" class="social-navigation__link">
+            <i class="fa fa-youtube social-navigation__icon" aria-hidden="true"></i>
           </a>
         </li>
       </ul>
     </nav>
   </header>
   <main class="main">
-    <div class="main__container">
-      <section class="carousel" aria-label="Слайд-шоу">
-        <button type="button" class="carousel__button carousel__button-prev carousel__button_position_left">
-          <i class="fa fa-arrow-left fa-lg" aria-hidden="true"></i>
-        </button>
-        <button type="button" class="carousel__button carousel__button-next">
-          <i class="fa fa-arrow-right fa-lg" aria-hidden="true"></i>
-        </button>
-        <div class="carousel_dots">
-          <span class="carousel_dot"></span>
-          <span class="carousel_dot"></span>
-          <span class="carousel_dot"></span>
-          <span class="carousel_dot"></span>
-        </div>
-      </section>
-      <h1 class="elements__title">Экспертное мнение&nbsp;</h1>
-      <section class="elements" aria-label="Мнения экспертов канала Концептуал.рф">
-      </section>
-      <div class="pagination">
-        <ul class="pagination__items">
-          <li class="pagination__item"><a href="#" class="pagination__link_active">1</a></li>
-          <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
-          <li class="pagination__item"><a href="#" class="pagination__link">3</a></li>
-          <li class="pagination__item"><a href="#" class="pagination__link">4</a></li>
-          <li class="pagination__item"><a href="#" class="pagination__link">5</a></li>
+    <section class="content">
+      <nav class="content__nav">
+        <ul class="content__nav-items">
+          <li class="content__nav-item">
+            <a href="/index.html" class="content__nav-link">
+              На главную
+            </a>
+          </li>
+          <li class="content__nav-item">
+            <a href="#" class="content__nav-link">
+              &#8249; Назад
+            </a>
+          </li>
+          <li class="content__nav-item">
+            <a href="#" class="content__nav-link">
+              Вперед &#8250;
+            </a>
+          </li>
         </ul>
+      </nav>
+      <h1 class="content__title">Гордиться, а не каяться! Жуков Юрий</h1>
+      <div class="content__video-wrapper">
+        <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/IOVNoxWs6VU" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
       </div>
-    </div>
+      <div class="content__date" style="margin-top: 12px; color: rgba(0, 0, 0, .6);" class="content__date">
+        <i class="fa fa-calendar"P></i>
+        <time datetime="">&nbsp;Выпуск от 21 июня 2022 г.</time>
+      </div>
+      <div class="content__wrapper">
+        <div class="content__description">
+          <h2 class="content__description-title">Описание</h2>
+          <p class="content__paragraph">
+            01:11 Юрий Николаевич, рад слышать ваш голос. Хочу поздравить вас с&nbsp;публикацией &laquo;Гордиться, а&nbsp;не&nbsp;каяться&raquo;. 
+            Я&nbsp;знаю что эта книга для вас очень личная. Расскажите о&nbsp;вышедшей книге?
+          </p>
+          <p class="content__paragraph">
+            08:20 Интеграция книги Юрия Николаевича Жукова &laquo;Гордиться, а&nbsp;не&nbsp;каяться&raquo;. Юрий Николаевич Жуков&nbsp;&mdash; писатель, 
+            доктор исторических наук, главный научный сотрудник Института Россий Истории РАН.
+          </p>
+          <p class="content__paragraph">
+            Приобрести книгу Юрия Жукова &laquo;Гордиться, а&nbsp;не&nbsp;каяться!&raquo; можно 
+            в&nbsp;<a class="content__link" href="https://konzeptual.ru/gordit-sja-a-ne-kajat-sja-11848/">интернет-магазине &laquo;Концептуал&raquo;</a>.
+            Другие книги автора можно посмотреть <a class="content__link" href="https://konzeptual.ru/zhukov-yurij-nikolaevich/">здесь.</a>
+          </p>
+        </div>
+          <a href="https://konzeptual.ru/gordit-sja-a-ne-kajat-sja-11848/" class="class__book-link">
+            <img class="content__book" src="https://konzeptual.ru/image/cache/catalog/products/f98b870fc2c176bde6451567a2079030-540x860.jpg" alt="Картинка">
+          </a>
+      </div>
+        <h2 class="content__video-head">Другие видео</h2>
+          <ul class="content__video-items">
+            <li class="content__video-item">
+                <a href="http://xn--80ajoghfjyj0a.xn--p1ai/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D1%80%D0%BE%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B4%D0%B5%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%B8%D1%8F-%D0%BE%D1%82%D0%BC%D0%B5%D0%BD%D1%8F%D0%B5%D1%82%D1%81%D1%8F-%D0%B5/" class="content__link-video">
+                  <img class="content__video-image" src="./images/lebedeva-img.jpeg" alt="Русские традиции родов">
+                </a>
+            </li>          
+            <li class="content__video-item">
+              <a href="http://xn--80ajoghfjyj0a.xn--p1ai/%D1%87%D1%82%D0%BE-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B0%D0%B5%D1%82-%D0%BE%D1%81%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0-%D0%BE%D1%82/" class="content__link-video">
+                <img class="content__video-image"  src="./images/efimov-img.jpg" alt="Отличия концептуала от обывателя">
+              </a>
+            </li>
+            <li class="content__video-item">
+                <a href="http://xn--80ajoghfjyj0a.xn--p1ai/%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D1%85%D0%BE%D0%B7%D1%8F%D0%B5%D0%B2%D0%B0-%D0%BC%D0%B8%D1%80%D0%B0-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D1%80%D0%BE%D1%81%D1%81/" class="content__link-video">
+                  <img class="content__video-image" class="content__video-item" src="./images/Artamonov-img.jpg" alt="Гидра Запада">
+                </a>
+            </li>
+            <li class="content__video-item">
+              <a href="http://xn--80ajoghfjyj0a.xn--p1ai/%D1%82%D1%80%D0%B0%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D0%B3%D0%B5%D0%BD%D1%81%D0%B5%D0%BA%D0%BE%D0%B2-%D0%B5%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9-%D1%81%D0%BF%D0%B8%D1%86%D1%8B%D0%BD/" class="content__link-video">
+                <img class="content__video-image" class="content__video-item" src="./images/spicyn-img.jpg" alt="Траектория генсеков. Евгений Спицын">
+              </a>
+            </li>
+          </ul>
+    </section>
   </main>
   <footer class="footer">
     <div class="footer__container">
       <nav class="footer__navigation">
         <div class="footer__navigation-wrapper">
-          <h3 class="footer__title">О нас</h3>
+          <div class="footer__title-wrapper">
+            <h3 class="footer__title">О нас</h3>
+            <button class="footer__title-button">&#9660;</button>
+          </div>
           <ul class="footer__navigation-items">
             <a href="https://konzeptual.ru/o-proekte/" class="footer__navigation-link">
               <li class="footer__navigation-item">История успеха</li>
@@ -150,7 +205,10 @@
           </ul>
         </div>
         <div class="footer__navigation-wrapper">
-          <h3 class="footer__title">Личный кабинет</h3>
+          <div class="footer__title-wrapper">
+            <h3 class="footer__title">Личный кабинет</h3>
+            <button class="footer__title-button">&#9660;</button>
+          </div>
           <ul class="footer__navigation-items">
             <a href="https://konzeptual.ru/account/" class="footer__navigation-link">
               <li class="footer__navigation-item">Моя учетная запись</li>
@@ -170,7 +228,10 @@
           </ul>
         </div>
         <div class="footer__navigation-wrapper">
-          <h3 class="footer__title">Информация</h3>
+          <div class="footer__title-wrapper">
+            <h3 class="footer__title">Информация</h3>
+            <button class="footer__title-button">&#9660;</button>
+          </div>
           <ul class="footer__navigation-items">
             <a href="https://konzeptual.ru/voprosi-i-otveti/" class="footer__navigation-link">
               <li class="footer__navigation-item">Помощь</li>
@@ -190,7 +251,10 @@
           </ul>
         </div>
         <div class="footer__navigation-wrapper">
-          <h3 class="footer__title">Мы в соцсетях</h3>
+          <div class="footer__title-wrapper">
+            <h3 class="footer__title">Мы в соцсетях</h3>
+            <button class="footer__title-button">&#9660;</button>
+          </div>
           <ul class="footer__navigation-items">
             <a href="https://vk.com/konzeptual_rf" target="_blank" class="footer__navigation-link">
               <li class="footer__navigation-item">Вконтакте</li>
@@ -225,10 +289,10 @@
         <div class="footer__contacts">
           <div class="footer__shop-contact">
             <p class="footer__schedule-heading">Интернет-магазин</p>
-            <p class="footer__schedule">График работы: пн-пт с 09:00 до 18:00 по МСК</p>
+            <p class="footer__schedule">График работы: пн-пт 09:00-18:00 МСК</p>
             <div class="footer__contact-element">
               <i class="fa fa-phone-square" aria-hidden="true"></i>
-              <span>+7 (495) 150-69-70</span>
+              <span style="color: #ffffff; text-decoration: none;">+7 (495) 150-69-70</span>
             </div>
             <div class="footer__contact-element">
               <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -239,10 +303,10 @@
             <p class="footer__schedule-heading">Магазин &laquo;Концептуал&raquo;
               <a href="https://konzeptual.ru/kontakti/" class="footer__schedule-link">в Москве</a>
             </p>
-            <p class="footer__schedule">График работы: ежедневно с 10:00 до 19:00 по МСК</p>
+            <p class="footer__schedule">График работы: ежедневно 10:00-19:00 МСК</p>
             <div class="footer__contact-element">
               <i class="fa fa-phone-square" aria-hidden="true"></i>
-              <span>+7 (495) 150-69-70, доб. 3</span>
+              <span style="color: #ffffff; text-decoration: none;">+7 (495) 150-69-70, доб. 3</span>
             </div>
           </div>
         </div>
@@ -254,37 +318,49 @@
       </div>
     </div>
   </footer>
-  <div class="quickheader">
-    <button type="button" class="quickheader__btn">
-      <i class="fa fa-arrow-up fa-lg" aria-hidden="true"></i>
-    </button>
-  </div>
-  <!-- TEMPLATE FOR CARD -->
-  <template class="template">
-    <a href="/" class="element">
-      <img src="/" alt="" class="element__image">
-      <div class="element__time-public">
-        <i class="fa fa-calendar"></i>
-        <time class="element__entry-date" datetime="">Дата</time>
+  <div class="popup">
+    <i class="fa fa-times fa-2x popup__close-btn" aria-hidden="true"></i>
+    <div class="popup__container">
+      <div class="popup__search-wrap">
+        <input class="popup__search-input" type="text" name="search" value="" placeholder="Я ищу видео..." autocomplete="off">
+        <button type="button" class="popup__search-btn">
+          <i class="fa fa-search"></i>
+        </button>
       </div>
-      <h2 class="element__title">Заголовок</h2>
-      <button type="button" class="element__details">
-        <i class="fa fa-hand-pointer-o fa-2x" aria-hidden="true"></i>
-      </button>
-    </a>
-  </template>
-  <!-- TEMPLATE FOR BANNER -->
-  <template class="slide-template">
-    <div class="carousel__element">
-      <a href="/" class="carousel__link">
-        <img src="/" alt="" class="carousel__photo">
-      </a>
+      <div class="popup__navigation">
+        <ul class="popup__nivigation-items">
+          <li class="popup__navigation-item">
+            <a href="https://konzeptual.ru/novie-tovary/" class="popup__navigation-link">Новинки</a>
+          </li>
+          <li class="popup__navigation-item">
+            <a href="https://konzeptual.ru/knigi-so-skidkoj/" class="popup__navigation-link">Акции</a>
+          </li>
+          <li class="popup__navigation-item">
+            <a href="http://xn--80ajoghfjyj0a.xn--p1ai/" class="popup__navigation-link_active">СМИ</a>
+          </li>
+          <li class="popup__navigation-item">
+            <a href="https://konzeptual.ru/izdatelstvo/" class="popup__navigation-link">Издательство</a>
+          </li>
+          <li class="popup__navigation-item">
+            <a href="https://konzeptual.ru/authors/" class="popup__navigation-link">Авторы</a>
+          </li>
+          <li class="popup__navigation-item">
+            <a href="https://konzeptual.ru/optovikam/" class="popup__navigation-link">Оптовикам</a>
+          </li>
+          <li class="popup__navigation-item">
+            <a href="https://konzeptual.ru/doctavka/" class="popup__navigation-link">Доставка и оплата</a>
+          </li>
+          <li class="popup__navigation-item">
+            <a href="https://konzeptual.ru/o-proekte/" class="popup__navigation-link">О нас</a>
+          </li>
+          <li class="popup__navigation-item">
+            <a href="https://konzeptual.ru/kontakti/" class="popup__navigation-link">Контакты</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </template>
-  <!-- JAVASCRIPT -->
-  <script src="./scripts/posts.js"></script>
-  <script src="./scripts/carousel.js"></script>
-  <script src="./scripts/scroll-to-top.js"></script>
+  </div>
   <script src="./scripts/navlist.js"></script>
+  <script src="./scripts/nav-popup.js"></script>
 </body>
 </html>

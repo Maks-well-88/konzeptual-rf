@@ -1,6 +1,12 @@
 .pagination {
   max-width: 500px;
   margin: 0 auto;
-  padding: 0 40px 160px 0;
+  padding: 0 40px 20px 0;
   font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+@media screen and (max-width: 915px) {
+  .pagination {
+    padding-bottom: 5px;
+  }
 }

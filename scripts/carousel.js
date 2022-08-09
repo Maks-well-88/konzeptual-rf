@@ -23,11 +23,12 @@ const dataSlides = [
 
 const carousel = document.querySelector('.carousel');
 const caruselPhoto = carousel.querySelector('.carousel__photo');
+const template = document.querySelector('.slide-template').content.querySelector('.carousel__element');
 
 function createSlide(href, src, text) {
-  const slide = document.querySelector('.slide-template').content.querySelector('.carousel__element').cloneNode(true),
-    link = slide.querySelector('.carousel__link'),
-    image = slide.querySelector('.carousel__photo');
+  const slide = template.cloneNode(true);
+  const link = slide.querySelector('.carousel__link');
+  const image = slide.querySelector('.carousel__photo');
   link.href = href;
   image.src = src;
   image.alt = text;
@@ -37,14 +38,10 @@ function createSlide(href, src, text) {
 dataSlides.forEach((slide) => carousel.prepend(createSlide(slide.href, slide.src, slide.text)));
 
 let step = 0;
-const slides = carousel.querySelectorAll('.carousel__element'),
-  buttons = carousel.querySelectorAll('.carousel__button'),
-  dots = carousel.querySelectorAll('.carousel_dot'),
-  prevButton = carousel.querySelector('.carousel__button-prev'),
-  nextButton = carousel.querySelector('.carousel__button-next');
-
+const slides = carousel.querySelectorAll('.carousel__element');
+const dots = carousel.querySelectorAll('.carousel__dot');
 slides[0].classList.add('carousel__element_active');
-dots[0].classList.add('carousel_dot_active');
+dots[0].classList.add('carousel__dot_active');
 
 const activeSlide = (index) => {
   slides.forEach((slide) => slide.classList.remove('carousel__element_active'));
@@ -52,8 +49,8 @@ const activeSlide = (index) => {
 };
 
 const activeDot = (index) => {
-  dots.forEach((dot) => dot.classList.remove('carousel_dot_active'));
-  dots[index].classList.add('carousel_dot_active');
+  dots.forEach((dot) => dot.classList.remove('carousel__dot_active'));
+  dots[index].classList.add('carousel__dot_active');
 };
 
 const prepareElements = (n) => {
@@ -86,17 +83,6 @@ dots.forEach((item, index) => {
     step = index;
     prepareElements(step);
   });
-});
-
-nextButton.addEventListener('click', nextSlide);
-prevButton.addEventListener('click', prevSlide);
-
-carousel.addEventListener('mouseover', () => {
-  buttons.forEach((button) => button.classList.add('carousel__button_active'));
-});
-
-carousel.addEventListener('mouseout', () => {
-  buttons.forEach((button) => button.classList.remove('carousel__button_active'));
 });
 
 setInterval(nextSlide, 7000);

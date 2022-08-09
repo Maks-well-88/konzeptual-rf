@@ -1,8 +1,14 @@
 .element__title {
   width: 90%;
-  height: 60px;
+  height: 78px;
   text-overflow: ellipsis;
   overflow: hidden;
   margin: 0 auto 20px auto;
-  font-size: 17px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1125px) {
+  .element__title {
+    font-size: 17px;
+  }
 }

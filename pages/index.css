@@ -56,12 +56,9 @@
 @import url('../blocks/carousel/__element/_active/carousel__element_active.css');
 @import url('../blocks/carousel/__photo/carousel__photo.css');
 @import url('../blocks/carousel/__link/carousel__link.css');
-@import url('../blocks/carousel/__button/carousel__button.css');
-@import url('../blocks/carousel/__button/_position/carousel__button_position_left.css');
-@import url('../blocks/carousel/__button/_active/carousel__button_active.css');
-@import url('../blocks/carousel/_dots/carousel_dots.css');
-@import url('../blocks/carousel/_dot/carousel_dot.css');
-@import url('../blocks/carousel/_dot/_active/carousel_dot_active.css');
+@import url('../blocks/carousel/__dots/carousel__dots.css');
+@import url('../blocks/carousel/__dot/carousel__dot.css');
+@import url('../blocks/carousel/__dot/_active/carousel__dot_active.css');
 
 /* CART-ZONE */
 @import url('../blocks/elements/elements.css');
