@@ -129,13 +129,21 @@ function createPost(href, src, time, text) {
   const date = post.querySelector('.element__entry-date');
   const title = post.querySelector('.element__title');
   const articlePointer = post.querySelector('.element__details');
+  const screenWidth = window.screen.width;
   post.href = href;
   image.src = src;
   image.alt = text;
   date.textContent = time;
   title.textContent = text;
-  post.addEventListener('mouseover', () => articlePointer.classList.add('element__details_active'));
-  post.addEventListener('mouseout', () => articlePointer.classList.remove('element__details_active'));
+
+  post.addEventListener('mouseover', () => {
+    screenWidth > 949 && articlePointer.classList.add('element__details_active');
+  });
+
+  post.addEventListener('mouseout', () => {
+    screenWidth > 949 && articlePointer.classList.remove('element__details_active');
+  });
+
   return post;
 }
 
